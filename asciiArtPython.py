@@ -66,7 +66,6 @@ def images_vers_vidéo(liste_paths:list, fps:int, nom_fichier:str)->None:
     
     Ne retourne rien.
     """
-    print(liste_paths)
     frame = cv2.imread(liste_paths[0])
     height, width, layers = frame.shape
     size = (width, height)
