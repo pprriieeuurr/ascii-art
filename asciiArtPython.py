@@ -14,6 +14,8 @@ import cv2
 
 # Vérification de la présence du fichier de police FUTRFW.TTF
 assert os.path.isfile("FUTRFW.TTF"), "Le fichier de police FUTRFW.TTF est manquant. Veuillez le télécharger depuis https://github.com/pprriieeuurr/ascii-art et le placer dans le même répertoire que ce script."
+if not os.path.exists("data"):
+    os.mkdir("data")
 
 # Fonction pour les vidéos
 def vidéo_vers_images(source:str, fps_max:int=10, taille_frame_maxi:int=7000, noms_images:str="frame")->list:
