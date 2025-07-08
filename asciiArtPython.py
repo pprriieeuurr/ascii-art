@@ -1,10 +1,3 @@
-"""
-Cette bibliothèque comprend les fonctions suivantes :
-    - depuis_image  : Convertit une image en art ASCII.
-    - vers_image : Convertit de l'art ASCII en image.
-    - vers_texte : Convertit de l'art ASCII en fichier texte brut.
-    - vers_terminal : Affiche de l'art ASCII dans le terminal.
-"""
 # Importation des bibliothèques nécessaires
 from PIL import Image, ImageDraw, ImageFont
 import os
