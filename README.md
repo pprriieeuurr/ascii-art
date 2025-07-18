@@ -1,4 +1,4 @@
-# Génération de texte avec les chaînes de Markov
+# Création d'Ascii Art
 Ce projet codé avec Python durant l'été 2024 par mes soins, permet de trabnsformer une image, une vidéo ou même votre webcal en [Ascii Art](https://fr.wikipedia.org/wiki/Art_ASCII) (de type _Newskool_).
 ## Fonctionnement
 Pour générer de tels résultats, le programme regarde le taux de blanc de chaque pixel de l'image un par un et choisi le caratère le mieux en fonction, selon le tableau suivant :
